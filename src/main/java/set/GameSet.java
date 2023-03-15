@@ -65,9 +65,19 @@ public class GameSet implements Settingz {
         ++playerPoints;
         return true;
       }
-
-
-
-        return false;
+      return false;
     }
+
+  @Override
+  public boolean checkCorrect(char buchstabe)
+  {
+    if(Character.toUpperCase(buchstabe) == 'P')
+      return true;
+    else if(Character.toUpperCase(buchstabe) == 'R')
+      return true;
+    else if(Character.toUpperCase(buchstabe) == 'S')
+      return true;
+
+    return false;
+  }
 }

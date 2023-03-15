@@ -4,7 +4,6 @@ public class RockPaperScissors
 {
     public static void main(String[] args)
     {
-
         int playerPoints = 0;
         int pcPoints = 0;
 
@@ -18,11 +17,5 @@ public class RockPaperScissors
             System.out.println("\033[0mPress P to PAPER");
             System.out.println("\033[34mPress S to CUTTTT.....          \033[36mPC: " + pcPoints + "\033[0m");
         }
-
-
-
-
-
-
     }
 }

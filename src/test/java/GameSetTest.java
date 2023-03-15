@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import set.GameSet;
 
@@ -24,5 +25,17 @@ public class GameSetTest
         pcPoint = gameSetTest.getPcPoints();
         System.out.println("PC: " + pcPoint);
         System.out.println("Player: " + playerPoint);
+    }
+    @Test
+    public void CheckCorrect_Test()
+    {
+        boolean expectedA = false;
+        boolean expectedB = true;
+
+        boolean testA = gameSetTest.checkCorrect('f');
+        boolean testB = gameSetTest.checkCorrect('r');
+
+        Assertions.assertEquals(expectedA,testA);
+        Assertions.assertEquals(expectedB, testB);
     }
 }
