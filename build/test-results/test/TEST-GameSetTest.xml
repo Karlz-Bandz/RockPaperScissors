@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GameSetTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-15T15:43:15" hostname="WPLKM250542-F0V" time="0.034">
+<testsuite name="GameSetTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-15T16:11:19" hostname="WPLKM250542-F0V" time="0.038">
   <properties/>
-  <testcase name="CheckStateTest()" classname="GameSetTest" time="0.034"/>
+  <testcase name="CheckStateTest()" classname="GameSetTest" time="0.031"/>
+  <testcase name="CheckCorrect_Test()" classname="GameSetTest" time="0.006"/>
   <system-out><![CDATA[0
-2
-true
-0
 2
 true
 2
 2
 false
-1
+2
+2
+false
+0
 2
 true
 PC: 2
-Player: 1
+Player: 0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
